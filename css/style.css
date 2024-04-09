@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center; /*lehekylje k6ik tekstid keskel*/
+}
+
+.intro-image {
+    background-attachment: fixed; /*tausta pilt on fikseeritud lehekylge kerides, kuni uue tekstini*/
+    background-image: url('../img/image2.jpeg');
+    background-size: cover;
+    background-position: center; /*tostab esile taustapildi konkreetse asukoha*/
+    height: 600px;
+    display: flex; 
+    align-items: center; /*viib teksti vertikaalis keskele*/
+    justify-content: center; /*viib teksi horisontaalis keskele*/
+}
+
+.intro-image__link a {
+    background-color: #2b283077; /*text tehtud labipaistvaks*/
+    border: 2px solid #2b2830ec; /*texti umber raam vahem labipaistev*/
+    color: #c1bcb9;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2cap;
+    text-decoration: none;
+    text-transform: uppercase; /*teeb teksti tahed suureks*/
+    transition: all 1s ease-in-out; /*texti suurenduse kiirus*/
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2); /*hiirega texti peale liikudes, text suureneb*/
+}
+
+.intro-text {
+    background-color: #9a6845;
+    color: #e8cfd3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+    }
+
+    .intro-text__textbox h3{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .quality-image {
+        background-attachment: fixed;
+        background-image: url('../img/image3.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quality-image__link a{
+        background-color: #2b283053; /*text tehtud labipaistvaks*/
+        border: 2px solid #2b2830ec; /*texti umber raam vahem labipaistev*/
+        color: #787379;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 2cap;
+        text-decoration: none;
+        text-transform: uppercase; /*teeb teksti tahed suureks*/
+        transition: all 1s ease-in-out; /*texti suurenduse kiirus*/
+    }
+
+    .quality-image__link a:hover {  /*hover t6stab teksti esile kui liikuda hiirega teksti peale*/
+        transform: scale(1.2);
+    }
+
+    .qualty-text {
+        background-color: #9c6448;
+        color: #fadaae;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        padding: 0 15rem;
+    }
+
+    .quality-text__textbox h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .best-image {
+        background-attachment: fixed;
+        background-image: url('../img/image1.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .best-image__link a{
+        background-color: #2b283053;
+        border: 2px solid #2b2830ec;
+        color: #b7b6c1;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 2cap;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+    }
+
+    .best-image__link a:hover {
+        transform: scale(1.2);
+    }
+
+    .best-text {
+        background-color: #9c6448;
+        color: #fadaae;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        padding: 0 15rem;
+    }
+
+    .best-text__textbox h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .footer {
+        height: 250px;
+        background-color: #485561;
+        color: #a5807c;
+        font-size: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .footer ul li {
+        display: inline-block; /*paneb insta ja fb samale joonele*/
+        margin: 1rem;
+    }
+
+    .footer ul li a{
+        color: #a5807c;
+        text-decoration: none; /*tekstil joon alt minema*/
+
+    }
+
+    .footer ul li:hover {
+        transform: scale(1.3);
+    }
